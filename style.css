@@ -125,6 +125,38 @@ p.kuvateksti {
     border-radius: 30px;
     border-style:double;
 }
+/* Huvimajan säätöjä */
+#eka {
+  transform: translate(100px,0px)
+}
+#toka {
+  transform: rotate(5deg);
+}
+.kolmas {
+  width: 100%;
+  transition: width 2s, height 4s;
+}
+.kolmas:hover {
+  width: 10%;
+  height: 10%;
+}
+.neljas {
+  position: relative;
+  animation: huvimaja 6s infinite ;
+}
+@keyframes huvimaja {
+  0%  {left:0px; top: 0px;}
+  33%  {left:200px;top: 0px;}
+  66%  {left:600px;top: 0px;}
+  100%  {left:0px;top: 0px;}
+}
+/* Hirsimökkisivu */
+.HM {
+  text-shadow: 3px 4px 3px rgba(0, 0, 0, 0.4);
+}
+.HMpic {
+  box-shadow: -5px -5px #FEE440 ;
+}
 /* Yhteystiedot välilehden personoidut tekijät */
 .yhteystiedot {
   margin-left: 20px;
