@@ -159,7 +159,11 @@ p.kuvateksti {
 }
 /* Yhteystiedot välilehden personoidut tekijät */
 .yhteystiedot {
-  margin-left: 20px;
+  margin: 20px;
+}
+.Opettaja {
+  font-size: x-large;
+  border-style: groove;
 }
 /* blogin kikkailut */
 article {
